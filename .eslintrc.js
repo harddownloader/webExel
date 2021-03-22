@@ -28,15 +28,16 @@ module.exports = {
 				},
 			},
 		],
-		'import/extensions': [
-			'error',
-			'never',
-			{
-				svg: 'always',
-				png: 'always',
-				jpg: 'always',
-			},
-		],
+		// 'import/extensions': [
+		// 	'error',
+		// 	'never',
+		// 	{
+		// 		svg: 'always',
+		// 		png: 'always',
+		// 		jpg: 'always',
+		// 	},
+		// ],
+		"import/extensions": "off",
 		quotes: ['error', 'single'],
 	},
 	settings: {

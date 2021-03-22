@@ -14,6 +14,7 @@ module.exports = {
 		extensions: ['.js', '.js'],
 		alias: {
 			'@': path.join(__dirname, 'src'),
+			'@core': path.join(__dirname, 'src/core')
 		},
 	},
   plugins: [
